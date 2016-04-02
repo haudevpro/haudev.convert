@@ -12,4 +12,4 @@ public class Test{<br/>
 DataTable dt= new DataTable();<br/>
 dt.Columns.Add("Id");<br/>
 dt.Columns.Add("Name");<br/>
-List<Test> listTest=dt.ToList<<Test>>();<br/>
+List<Test> listTest=dt.ToList<<>>();<br/>
