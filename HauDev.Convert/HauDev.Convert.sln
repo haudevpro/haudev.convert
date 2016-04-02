@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HauDev.Convert", "HauDev.Convert\HauDev.Convert.csproj", "{F6837A6D-CA8F-4C71-A8A7-1A2E82FB915C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertTest", "ConvertTest\ConvertTest.csproj", "{C3FB3CAF-15DF-44BA-939B-D7AA721C87E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6837A6D-CA8F-4C71-A8A7-1A2E82FB915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6837A6D-CA8F-4C71-A8A7-1A2E82FB915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6837A6D-CA8F-4C71-A8A7-1A2E82FB915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6837A6D-CA8F-4C71-A8A7-1A2E82FB915C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FB3CAF-15DF-44BA-939B-D7AA721C87E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FB3CAF-15DF-44BA-939B-D7AA721C87E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FB3CAF-15DF-44BA-939B-D7AA721C87E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FB3CAF-15DF-44BA-939B-D7AA721C87E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
