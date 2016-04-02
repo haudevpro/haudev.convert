@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6837A6D-CA8F-4C71-A8A7-1A2E82FB915C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HauDev.Convert</RootNamespace>
+    <AssemblyName>HauDev.Convert</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConverterOfAttribute.cs" />
+    <Compile Include="Extends\ConvertExtend.cs" />
+    <Compile Include="Extends\TableExtends.cs" />
+    <Compile Include="HTypeCode.cs" />
+    <Compile Include="HTypeCodeOfAttribute.cs" />
+    <Compile Include="HTypeConverter.cs" />
+    <Compile Include="IHConvert.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\BooleanTypeConverter.cs" />
+    <Compile Include="Types\ByteTypeConverter.cs" />
+    <Compile Include="Types\DateTimeTypeConverter.cs" />
+    <Compile Include="Types\DecimalTypeConverter.cs" />
+    <Compile Include="Types\DoubleTypeConverter.cs" />
+    <Compile Include="Types\GuidTypeConverter.cs" />
+    <Compile Include="Types\Int16TypeConverter.cs" />
+    <Compile Include="Types\Int32TypeConverter.cs" />
+    <Compile Include="Types\Int64TypeConverter.cs" />
+    <Compile Include="Types\SingleTypeConverter.cs" />
+    <Compile Include="Types\StringTypeConverter.cs" />
+    <Compile Include="Types\TimeSpanTypeConverter.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
